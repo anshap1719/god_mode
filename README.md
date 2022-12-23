@@ -1,6 +1,6 @@
-# god_mode
+# trust_me_its_safe
 
-A rust macro to replace your `unsafe` blocks with a more friendlier name in order to not look as bad.
+A rust macro to replace your `unsafe` blocks with a more friendlier (and sarcastic) name in order to not look as bad.
 
 ### Usage Examples
 
@@ -26,7 +26,7 @@ fn main() {
     let mut x = 2.;
     let pointer = &mut x as *mut f64;
 
-    god_mode! {{
+    trust_me_its_safe! {{
         *pointer = 6.3;
     }}
 

@@ -1,6 +1,6 @@
 [package]
-name = "god_mode"
-version = "0.1.1"
+name = "trust_me_its_safe"
+version = "0.1.0"
 edition = "2021"
 authors = ["Anshul Sanghi <contact@anshulsanghi.tech>"]
 description = "A macro that replaces unsafe blocks with a friendlier name to not sound as bad"
